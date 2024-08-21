@@ -1,6 +1,6 @@
 # h - Hello world
 
-a) My first task was
+My first task was to write a hello world on MarkDown. Or rather, hello weppi!
 
 ## References
 
