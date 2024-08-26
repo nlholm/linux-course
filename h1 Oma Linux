@@ -1,0 +1,130 @@
+Tässä [Linux Palvelimet 2024 alkusyksy] (https://terokarvinen.com/linux-palvelimet/) -kurssin ensimmäisessä tehtävässä opiskelin hieman raportin kirjoittamista sekä vapaiden ohjelmistojen pääpiirteitä. Varsinaisena tehtävänä asensin Linux-virtuaalikoneen virtuaaliboksiin.
+
+# h1 Oma Linux
+
+## x) Lue ja tiivistä
+
+### Tero Karvinen: Raportin kirjoittaminen 
+
+Tero Karvisen Raportin kirjoittaminen -artikkelissa käsitellään tieteellisen kirjoittamisen perusteita. Karvinen kehottaa kirjoittamaan harjoitustöiden raportit niin, että ne ovat täsmällisiä ja helppolukuisia. Lähdeviitteiden on syytä löytyä, ja tulosten on oltava toistettavissa. Pahoina virheinä mainitaan muun muassa sepittäminen ja plagiointi.
+
+Itseäni ohjeistuksessa yllätti sen yksityiskohtaisuus: eteneminen tehtävissä saattaa Karvisen mukaan olla tarpeen merkitä kellonajan tarkkuudella. En koe ehkä aivan näin suurta tarkkuutta tarpeellisena, mutta erityisesti virhetilanteet on toki syytä dokumentoida huolella. 
+
+### Free Software Foundation: What is Free Software?
+
+Free Software Foundation toteaa vapaista ohjelmistoista (engl. free software) seuraavaa:
+
+ > Free software” means software that respects users' freedom and community. Roughly, it means that the users have the freedom to run, copy, distribute, study, change and improve the software. Thus, “free software” is a matter of liberty, not price.
+
+Toisin sanoen vapaissa ohjelmistoissa keskeistä on käyttäjien oikeus a) käyttää, b) tutkia, muokata ja c) jakaa sekä d) uudelleenjakaa tai levittää (muokattua) ohjelmistoa haluamillaan tavoilla. Vapaa pääsy ohjelman lähdekoodiin on edellytys oikeuksien toteutumiselle.
+
+Vapaat ohjelmistot voivat olla myös kaupallisia, edellyttäen että niihin liittyvät edellä mainitut neljä perusoikeutta toteutuvat.
+
+## Asenna Linux virtuaalikoneeseen
+
+Valmistauduin Linux-koneen asentamiseen perustamalla [GitHub-tilin] (https://github.com/)  sekä opiskelemalla MarkDown-ohjelmointikielen perusteita. Totesin GitHubin artikkelin [Basic writing and formatting syntax] (https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) varsin toimivaksi pikakurssiksi aiheeseen.
+
+Seuraavaksi asensin [VirtualBoxin] (https://www.virtualbox.org/wiki/Downloads), jota PC:lläni ei ollut ennestään. Käytössäni on Windows 11 Home -käyttöjärjestelmällä varustettu jokusen vuoden vanha HP:n PC, jossa on 16 GB RAMia, 450 GB SSD-levytilaa ja prosessorina AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  2.30 GHz.
+
+Am ilmoitus hieman hämmensi, mutta päätin palata asiaan tarvittaessa myöhemmin.
+
+ 
+
+VirtualBox tuli asennettua onnistuneesti.
+
+ 
+
+VirtualBoxin asennuksen jälkeen siirryin asentamaan Linuxin Debian-levityspakettia (distroa). Käytin hyväkseni Karvisen kattavaa ohjetta [Install Debian on Virtualbox] (https://terokarvinen.com/2021/install-debian-on-virtualbox/), jonka luin kokonaisuudessaan ennen etenemistä.
+
+Latasin levykuvan debian-live-12.6.0-amd64-xfce.iso koneelleni Karvisen ohjeiden mukaan, osoitteesta https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ . Lataus kesti viitisen minuuttia. Pistin muistiin Karvisen huomiot sopivasta kuvasta:
+
+> The correct image is
+- live - Can boot from image and use Linux even without installing. Some Linux distributions call live images desktop images.
+- 12.x.x - The distribution version, which locks major versions of most software, while providing security updates.
+- amd64 - Most regular desktops, laptops and servers are amd64. Also Intel processors use amd64 architecture.
+- xfce - my favourite desktop environment. Obvious and simple, but also easy to configure if you want. The other ones work fine, too.
+
+Levykuvan latauduttua käynnistin VirtualBoxin, ja aloin asentamaan uutta virtuaali-Linuxiani.
+
+Asennustapa oli hieman muuttunut Karvisen ohjeen päivittämisen jälkeen, ’Skip unattended Installation’ ei pystynyt valitsemaan. Valitsin kuitenkin Expert Mode.
+
+ 
+
+ 
+
+ 
+
+Lisäsin RAMia ja CPU:ita (aloitusarvo oli 1).
+
+ 
+
+Toisin kuin ohjeissa, vaihtoehtoa ’Storage on physical hard disk: Dynamically allocated’ ei ollut saatavilla, mutta oletin että jättämällä vaihtoehdon ’Pre-allocate Full Size’ tyhjäksi, asia tulee hoidettua.
+
+ 
+
+ 
+
+Seuraavaksi aloin asentamaan käyttöjärjestelmää virtuaalikoneeseen. Asensin virtuaalisen CDROMin jossa on  levykuva, ja buuttasin Debian-koneen tuplaklikkaamalla konetta.
+
+ 
+
+ 
+
+Testasin konetta avaamalla nettiselaimen.
+
+ 
+
+Seuraavaksi käynnistin Debianin asennusohjelman. Tein määritykset Karvisen ohjeiden mukaan.
+
+ 
+
+
+
+ 
+
+Asennus kesti noin varttitunnin. Sen päätyttyä yritin kirjautua sisään, mutta järjestelmä väitti salasanan olevan väärä. Uudelleenkäynnistin, ja tällä kertaa järjestelmä antoi kirjautua.
+
+
+ 
+
+ 
+
+Kokeilin taas nettiä, toimi. 
+
+Seuraavaksi avasin terminaali-emulaattorin ja tein päivitykset Karvisen ohjeiden mukaan, sekä asensin palomuurin.
+
+> $ sudo apt-get -y dist-upgrade
+
+>Upgrade everything. Everything? Latest versions for this Debian? Security updates? Command line apps? Desktop apps? Servers? Yes.
+
+ 
+
+ 
+
+Päivitysten ja palomuurin asentamisen jälkeen lisäsin VirtualBox Guest Additions -lisiä joilla virtuaali-Debianin käytöstä saadaan hieman mukavampaa.
+
+Virtuaalikoneen työpöytä alkoi näkymään.
+
+Lopuksi tallensin työn tulokset (VirtualBox, Machine, Take Snapshot).
+
+ 
+
+## k) suosikkiohjelmani Linuxilla
+
+Uutena Linux-käyttäjänä minulle ei ole ehtinyt kertyä suosikkiohjelmia, mutta pidän taulukkolaskennasta, joten kokeilin LibreOffice Calcia. Alla kuvakaappaus kaavalla lasketusta laskutoimenpiteestä 1+1. Kaava toimi vastaavasti kuin Excelissä. 
+
+ 
+
+## Lähteet
+
+Free Software Foundation, Inc. 1.1.2024. What is Free Software? Luettavissa: https://www.gnu.org/philosophy/free-sw.html . Luettu: 26.8.2024
+
+GitHub Inc. 2024. Basic writing and formatting syntax. Luettavissa: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax . Luettu 26.8.2024
+
+Karvinen, T. 2023. Install Debian on Virtualbox - Updated 2023. Tero Karvinen – Learn Free Software with me. Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/ . Luettu: 26.8.2024
+
+Karvinen, T. 2024. Linux Palvelimet 2024 alkusyksy. Tero Karvinen – Learn Free Software with me. Luettavissa https://terokarvinen.com/linux-palvelimet/  . Luettu: 26.8.2024
+
+Karvinen, T. 4.6.2006. Raportin kirjoittaminen. Tero Karvinen – Learn Free Software with me. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ . Luettu: 26.8.2024
+
+Oracle 2024. VirtualBox. Luettavissa: https://www.virtualbox.org/wiki/Downloads . Luettu 26.8.2024
