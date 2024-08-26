@@ -1,8 +1,8 @@
 Tässä [Linux Palvelimet 2024 alkusyksy](https://terokarvinen.com/linux-palvelimet/) -kurssin ensimmäisessä tehtävässä opiskelin hieman raportin kirjoittamista sekä vapaiden ohjelmistojen pääpiirteitä. Varsinaisena tehtävänä asensin Linux-virtuaalikoneen virtuaaliboksiin.
 
-# h1 Oma Linux
+# Tehtävä 1: Oma Linux
 
-## x) Lue ja tiivistä
+## Lue ja tiivistä
 
 ### Tero Karvinen: Raportin kirjoittaminen 
 
@@ -20,7 +20,7 @@ Toisin sanoen vapaissa ohjelmistoissa keskeistä on käyttäjien oikeus a) käyt
 
 Vapaat ohjelmistot voivat olla myös kaupallisia, edellyttäen että niihin liittyvät edellä mainitut neljä perusoikeutta toteutuvat.
 
-## a) Asenna Linux virtuaalikoneeseen
+## Asenna Linux virtuaalikoneeseen
 
 Valmistauduin Linux-koneen asentamiseen perustamalla [GitHub-tilin](https://github.com/)  sekä opiskelemalla MarkDown-ohjelmointikielen perusteita. Totesin GitHubin artikkelin [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) varsin toimivaksi pikakurssiksi aiheeseen.
 
@@ -108,7 +108,7 @@ Virtuaali-Debianin asennukseen esitöineen kului ensikertalaiselta noin kolme tu
 
 ![image](https://github.com/user-attachments/assets/b9ad9f7a-6cf6-4561-b7aa-ba0952d21033)
 
-## k) suosikkiohjelmani Linuxilla
+## Suosikkiohjelmani Linuxilla
 
 Uutena Linux-käyttäjänä minulle ei ole ehtinyt kertyä suosikkiohjelmia, mutta pidän taulukkolaskennasta, joten kokeilin LibreOffice Calcia. Alla kuvakaappaus kaavalla lasketusta laskutoimenpiteestä 1+1. Kaava toimi vastaavasti kuin Excelissä. 
 
