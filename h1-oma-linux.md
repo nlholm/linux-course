@@ -102,7 +102,9 @@ Päivitysten ja palomuurin asentamisen jälkeen lisäsin VirtualBox Guest Additi
 
 Virtuaalikoneen työpöytä alkoi näkymään.
 
-Lopuksi tallensin työn tulokset (VirtualBox, Machine, Take Snapshot).
+Lopuksi tallensin työn tulokset (VirtualBox, Machine, Take Snapshot). 
+
+Virtuaali-Debianin asennukseen esitöineen kului ensikertalaiselta noin kolme tuntia (kirjoitin raporttia samanaikaisesti).
 
 ![image](https://github.com/user-attachments/assets/b9ad9f7a-6cf6-4561-b7aa-ba0952d21033)
 
