@@ -24,7 +24,7 @@ Vapaat ohjelmistot voivat olla myös kaupallisia, edellyttäen että niihin liit
 
 Valmistauduin Linux-koneen asentamiseen perustamalla [GitHub-tilin](https://github.com/)  sekä opiskelemalla MarkDown-ohjelmointikielen perusteita. Totesin GitHubin artikkelin [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) varsin toimivaksi pikakurssiksi aiheeseen.
 
-Seuraavaksi asensin [VirtualBoxin](https://www.virtualbox.org/wiki/Downloads), jota PC:lläni ei ollut ennestään. Käytössäni on Windows 11 Home -käyttöjärjestelmällä varustettu jokusen vuoden vanha HP:n PC, jossa on 16 GB RAMia, 450 GB SSD-levytilaa ja prosessorina AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  2.30 GHz.
+Seuraavaksi asensin [VirtualBoxin](https://www.virtualbox.org/wiki/Downloads), jota PC:lläni ei ollut ennestään. Käytössäni on 64-bittinen Windows 11 Home -käyttöjärjestelmällä varustettu jokusen vuoden vanha HP:n PC, jossa on 16 GB RAMia, 450 GB SSD-levytilaa ja prosessorina AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  2.30 GHz (4 x CPU, 8 x thread).
 
 Am ilmoitus hieman hämmensi, mutta päätin palata asiaan tarvittaessa myöhemmin.
 
