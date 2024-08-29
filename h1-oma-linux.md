@@ -1,4 +1,4 @@
-Tässä [Linux Palvelimet 2024 alkusyksy](https://terokarvinen.com/linux-palvelimet/) -kurssin ensimmäisessä tehtävässä opiskelin hieman raportin kirjoittamista sekä vapaiden ohjelmistojen pääpiirteitä. Varsinaisena tehtävänä asensin Linux-virtuaalikoneen virtuaaliboksiin. Tein tehtävän maanantaina 26.8.2024. Aloitin klo 21, ja valmista tuli n. klo 24.
+[Linux Palvelimet 2024 alkusyksy](https://terokarvinen.com/linux-palvelimet/) -kurssin ensimmäisessä tehtävässä opiskelin hieman raportin kirjoittamista sekä vapaiden ohjelmistojen pääpiirteitä. Varsinaisena tehtävänä asensin Linux-virtuaalikoneen virtuaaliboksiin. Tein tehtävän maanantaina 26.8.2024. Aloitin klo 21, ja valmista tuli n. klo 24.
 
 # Tehtävä 1: Oma Linux
 
