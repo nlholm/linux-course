@@ -92,7 +92,7 @@ Karvisen [Command Line Basics]( https://terokarvinen.com/2020/command-line-basic
 
 Tutkin kansioita komentokehotteessa lähtemällä liikkeelle juuresta.
 
-### l eli juuri
+### / eli juuri
 
 ![image](https://github.com/user-attachments/assets/e04dc073-fcfa-4bc4-b82a-6172c10ce1c3)
 
