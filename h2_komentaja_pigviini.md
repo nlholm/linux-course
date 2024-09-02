@@ -58,7 +58,7 @@ Ajoin apt-get update loppuun ensi, ja kokeilin uudestaan, nyt asennus näytti on
 
 _Asenna kolme itsellesi uutta komentoriviohjelmaa. Kokeile kutakin ohjelmaa sen pääasiallisessa käyttötarkoituksessa. Ota ruutukaappaus. Kaikki terminaaliohjelmat kelpaavat, TUI (text user interface) ja CLI (command line interface). Osaatko tehdä apt-get komennon, joka asentaa nämä kolme ohjelmaa kerralla?_
 
-Tämän osatehtävän edessä olin hieman hämmentynyt. Mistä tiedän, mitä ohjelmia Linuxilleni on jo asennettu? Selailu /bin-hakemistossa ei juuri auttanut. Löysin graafisesta kansionäkymästä (File System) kyllä äsken asennetun micro-editorin, mutta komentoliittymän käskyn´stä `apt-cache search micro `en ymmärtänyt juuri mitään. 
+Tämän osatehtävän edessä olin hieman hämmentynyt. Mistä tiedän, mitä ohjelmia Linuxilleni on jo asennettu? Selailu /bin-hakemistossa ei juuri auttanut. Löysin graafisesta kansionäkymästä (File System) kyllä äsken asennetun micro-editorin, mutta komentoliittymän käskystä `apt-cache search micro `en ymmärtänyt juuri mitään. 
 
 Googlailin hieman mahdollisia komentoriviohjelmia. Niitä esiteltiinkin erilaisilla sivustoilla, mutta päätin asentaa hyötyohjelmien sijaan hupia: cowsay, fortune ja nsnake. Kokeilin asentaa ohjelmat yhdellä käskyllä 
 
