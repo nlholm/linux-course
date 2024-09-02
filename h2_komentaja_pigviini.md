@@ -142,7 +142,7 @@ Kokeilin ehdotettua journalctl-komentoa, mutta kovin paljoa en tulostuksesta ymm
 
 ![image](https://github.com/user-attachments/assets/b6c4acd3-cc83-40c7-80cd-928a523f13e4)
 
-## d) The Friendly M. 
+## d) The Friendly M 
 
 _Näytä 2-3 kuvaavaa esimerkkiä grep-komennon käytöstä. Ohjeita löytyy 'man grep' ja tietysti verkosta._
 
@@ -166,7 +166,7 @@ Kokeilin etsiä tekstinpätkää esimerkkitiedostosta (ilman case sensitiivisyyt
 
 Tämä onnistui.
 
-## e) Pipe. 
+## e) Pipe 
 
 _Näytä esimerkki putkista (pipes, "|")._
 
@@ -174,7 +174,7 @@ Putkitin lehmän puhumaan ikivihreitä italiaksi:
 
 ![image](https://github.com/user-attachments/assets/ff79c8b4-9bd9-46b8-b3d6-0d1e472e20aa)
 
-## f) Rauta. 
+## f) Rauta 
 
 _Listaa testaamasi koneen rauta (‘sudo lshw -short -sanitize’). Asenna lshw tarvittaessa. Selitä ja analysoi listaus._
 
