@@ -20,7 +20,9 @@ Käytössäni on Windows 11 Home -käyttöjärjestelmällä varustettu jokusen v
 
 - Virtualisointiympäristönä Oracle VM VirtualBox 7.0.20
 - Virtuaalikoneena Debian GNU/Linux 12.6.0 (”Bookworkm”)
-- Muisti: 4000 MB
+- CPU 4 ydintä
+- RAM: 4 GB
+- Levytila: 30 GB
 
 ## x) Lue ja tiivistä
 
