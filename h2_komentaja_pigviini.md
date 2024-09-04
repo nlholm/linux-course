@@ -38,7 +38,7 @@ Totesin, että tulee kulumaan hetki, ennen kuin olen sujut komentokehotteiden ka
 
 _Asenna micro-editori_
 
-Suoritin ensin `sudo apt-get update`, mutta ajo tuntui jäävän kesken. Aloin asentamaan seuraavaksi micro-editoria suorittamalla ensin `sudo apt-cache search micro`ja ajamalla sitten `apt-get -y install micro`. Haku tuntui tässä yhteydessä varsin tyhjänpäiväiseltä, vaikka kokeilin putkittaa lessillä; en ymmärtänyt, mitä olin etsimässä.
+Suoritin ensin `sudo apt-get update`, mutta ajo tuntui jäävän kesken. Aloin asentamaan seuraavaksi micro-editoria suorittamalla ensin `sudo apt-cache search micro`ja ajamalla sitten `sudo apt-get -y install micro`. Haku tuntui tässä yhteydessä varsin tyhjänpäiväiseltä, vaikka kokeilin putkittaa lessillä; en ymmärtänyt, mitä olin etsimässä.
 
 Haku:
 
