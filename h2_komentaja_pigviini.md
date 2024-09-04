@@ -160,7 +160,10 @@ Yritin etsiä matopelin sijainnin:
  
 ![image](https://github.com/user-attachments/assets/dc09af80-4407-4fff-821e-f4d7b3e7f870)
 
-Eipä löytynyt.
+Eipä löytynyt. (Päivitys 04.09.2024, tunnilla käytiin läpi korjausehdotus, jolla paikka olisi löytynyt parhaiten, kometno `dpkg --listfiles nsnake | less`: )
+
+![image](https://github.com/user-attachments/assets/4a908760-219a-425b-9864-caaf10f04194)
+
 
 Kokeilin etsiä tekstinpätkää esimerkkitiedostosta (ilman case sensitiivisyyttä, -i):
 
@@ -190,7 +193,7 @@ Raudasta voidaan tehdä muun muassa seuraavia huomioita: Järjestelmää ajetaan
 
 ## Päivitykset
 
-04.09.2024: Lisätty 'sudo' kohdan a komentoihin vertaispalautteen perusteella.
+04.09.2024: Lisätty 'sudo' kohdan a) komentoihin vertaispalautteen perusteella. Lisätty kommentit kohtaan d) The friendly M.
 
 ## Lähteet 
 
