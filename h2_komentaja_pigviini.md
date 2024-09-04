@@ -160,10 +160,9 @@ Yritin etsiä matopelin sijainnin:
  
 ![image](https://github.com/user-attachments/assets/dc09af80-4407-4fff-821e-f4d7b3e7f870)
 
-Eipä löytynyt. (Päivitys 04.09.2024, tunnilla käytiin läpi korjausehdotus, jolla paikka olisi löytynyt parhaiten, kometno `dpkg --listfiles nsnake | less`: )
+Eipä löytynyt, kommennossa oli vikaa. (Päivitys 04.09.2024, oikea komento olisi ollut `grep -r -i`. Tunnilla käytiin läpi korjausehdotus, jolla matopelin paikka olisi löytynyt parhaiten, komento `dpkg --listfiles nsnake | less`:)
 
 ![image](https://github.com/user-attachments/assets/4a908760-219a-425b-9864-caaf10f04194)
-
 
 Kokeilin etsiä tekstinpätkää esimerkkitiedostosta (ilman case sensitiivisyyttä, -i):
 
