@@ -52,7 +52,7 @@ Ensimmäinen yritys ei näyttänyt onnistuvan:
 
 ![image](https://github.com/user-attachments/assets/b3050cf6-ed8e-4f6f-9c68-b10b20d1911e)
 
-Ajoin apt-get update loppuun ensi, ja kokeilin uudestaan, nyt asennus näytti onnistuvan:
+Ajoin sudo apt-get update loppuun ensi, ja kokeilin uudestaan, nyt asennus näytti onnistuvan:
 
 ![image](https://github.com/user-attachments/assets/33aed7fc-1779-434d-9e4d-1f4f8fbb52c9)
  
