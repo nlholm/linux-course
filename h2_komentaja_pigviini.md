@@ -38,7 +38,7 @@ Totesin, että tulee kulumaan hetki, ennen kuin olen sujut komentokehotteiden ka
 
 _Asenna micro-editori_
 
-Suoritin ensin `apt-get update`, mutta ajo tuntui jäävän kesken. Aloin asentamaan seuraavaksi micro-editoria suorittamalla ensin `apt-cache search micro`ja ajamalla sitten `apt-get -y install micro`. Haku tuntui tässä yhteydessä varsin tyhjänpäiväiseltä, vaikka kokeilin putkittaa lessillä; en ymmärtänyt, mitä olin etsimässä.
+Suoritin ensin `sudo apt-get update`, mutta ajo tuntui jäävän kesken. Aloin asentamaan seuraavaksi micro-editoria suorittamalla ensin `sudo apt-cache search micro`ja ajamalla sitten `apt-get -y install micro`. Haku tuntui tässä yhteydessä varsin tyhjänpäiväiseltä, vaikka kokeilin putkittaa lessillä; en ymmärtänyt, mitä olin etsimässä.
 
 Haku:
 
@@ -187,6 +187,10 @@ Asensin lshw:n ja listasin koneeni raudan.
 ![image](https://github.com/user-attachments/assets/b789f483-b3d1-4486-8744-9556e29fa926)
 
 Raudasta voidaan tehdä muun muassa seuraavia huomioita: Järjestelmää ajetaan VirtualBoxissa. Muistia on 4 GB (kuten konetta asennettaessa määrittelin), tallennustilaa 32  GB, ja prosessorina toimii host OS:än AMZ  Ryden 7 3700U.
+
+## Päivitykset
+
+04.09.2024: Lisätty 'sudo' kohdan a komentoihin vertaispalautteen perusteella.
 
 ## Lähteet 
 
