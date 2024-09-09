@@ -221,64 +221,57 @@ Kysyin tarkempia ohjeita Chat-GPT:ltä, ja etenin niiden mukaan.
  
 Lopputulos oli että Apache ei käynnistynyt edelleenkään:
 
+![image](https://github.com/user-attachments/assets/4c00de23-b768-403f-b606-ea1d27d10646)
  
-
-En keksinyt enää muuta keinoa, kuin aloittaa alusta poistaa Apache2 ja aloittaa alusta (`sudo apt-get purge apache2`.
+En keksinyt enää muuta keinoa, kuin apoistaa Apache2 ja aloittaa alusta (`sudo apt-get purge apache2`).
 
 Uusi yritys VirtualHost configuration filen kanssa:
 
+![image](https://github.com/user-attachments/assets/8fa270c6-c34f-4789-ac31-b4a77675aa18)
  
-
 Totesin että web-palvelimessa on edelleen vikaa. Tässä kohtaa aikaa oli kulunut tuntikausia, luovutin. 
 
- 
+![image](https://github.com/user-attachments/assets/b0edee27-8d2e-4c33-adfe-bfe654fff0aa)
 
 Sekä localhost-sivu että http://hattu.example.com tulostivat /var/www/html/index.html -tiedostoon tallennetun tervehdystekstin.
 
+![image](https://github.com/user-attachments/assets/a6cd0487-c4dc-4ece-b896-9d8ff91ea015)
  
-
- 
-
 Olin luonut kohdassa e) mainitun html-sivun localhostin alle jo aiemmin, mutta enää en päässyt siihen selaimella käsiksi.
 
 Poistin tervehdystekstin komennolla ` sudo a2dissite 000-default.conf`. Nyt alkoi localhostin alle luotu weppisivu taas näkymään, mutta hattu.example lopetti toimimisen.
 
+![image](https://github.com/user-attachments/assets/ec9587f8-bee7-4797-b49c-7027f9dd7d08)
  
+Kaeiken kaikkiaan voidaan todeta, että epäonnistuin nimiperusteisen virtuaali-isännän luomisessa, enkä osannut omin voimin korjata tilannetta.
 
-
-
-Keiken kaikkiaan voidaan todeta, että epäonnistuin nimiperusteisen virtuaali-isännän luomisessa, enkä osannut omin voimin korjata tilannetta.
-
+![image](https://github.com/user-attachments/assets/04967a90-5885-4c06-9e54-06bb61b07ed0)
  
-
 ## e) HTML5-sivu
 
-Tee validi HTML5 sivu.
+_Tee validi HTML5 sivu._
 
 Tein tämän osatehtävän ilman ongelmia, ennen kuin asiat alkoivat mennä pieleen kohdassa d).
 
 Kirjoitin hyvin lyhyen HTML-sivun microlla Karvisen [ohjeiden]( https://terokarvinen.com/2012/short-html5-page/) mukaan. Tallensin sivun public_html-hakemistooni nimellä index.html.
 
+![image](https://github.com/user-attachments/assets/1c268f34-d7b8-4557-ae4b-765d59d25aba)
  
-
- 
-
- 
+![image](https://github.com/user-attachments/assets/301be0c2-6569-4b1d-9333-2bceb4d82043)
 
 ## f) ’curl -l’ ja ’curl’
 
-Anna esimerkit 'curl -I' ja 'curl' -komennoista. Selitä 'curl -I' muutamasta näyttämästä otsakkeesta (response header), mitä ne tarkoittavat.
+_Anna esimerkit 'curl -I' ja 'curl' -komennoista. Selitä 'curl -I' muutamasta näyttämästä otsakkeesta (response header), mitä ne tarkoittavat._
 
-Curl ja curl -i -komennoilla voi etsiä tietoa URT-osoitteista. -i-komento antaa enemmän tietoa response headereista. Alla esimerkki komennon käytöstä.
+Curl ja curl -i -komennoilla voi etsiä tietoa URL-osoitteista. -i-komento antaa enemmän tietoa response headereista. Alla esimerkki komennon käytöstä.
 
-
- 
+![image](https://github.com/user-attachments/assets/dc327c20-2a79-49c0-a2aa-ef05348f1c89)
 
 Esimerkki response headerista: Palvelimeksi on nimetty Apache/2.4.62 (Debian).
 
 ## m) GitHub Education
 
-Vapaaehtoinen, suosittelen tekemään: Hanki GitHub Education -paketti.
+_Vapaaehtoinen, suosittelen tekemään: Hanki GitHub Education -paketti._
 
 Hankin paketin [Git Hub Education-linkin](https://github.com/education) ohjeiden mukaan. Säätämistä oli senkin kanssa, koska enää ei ole saatavilla perinteisiä opiskelijakortteja.
 
