@@ -243,7 +243,7 @@ Poistin tervehdystekstin komennolla ` sudo a2dissite 000-default.conf`. Nyt alko
 
 ![image](https://github.com/user-attachments/assets/ec9587f8-bee7-4797-b49c-7027f9dd7d08)
  
-Kaeiken kaikkiaan voidaan todeta, että epäonnistuin nimiperusteisen virtuaali-isännän luomisessa, enkä osannut omin voimin korjata tilannetta.
+Kaiken kaikkiaan voidaan todeta, että epäonnistuin nimiperusteisen virtuaali-isännän luomisessa, enkä osannut omin voimin korjata tilannetta.
 
 ![image](https://github.com/user-attachments/assets/04967a90-5885-4c06-9e54-06bb61b07ed0)
  
