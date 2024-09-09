@@ -223,7 +223,7 @@ Lopputulos oli että Apache ei käynnistynyt edelleenkään:
 
 ![image](https://github.com/user-attachments/assets/4c00de23-b768-403f-b606-ea1d27d10646)
  
-En keksinyt enää muuta keinoa, kuin apoistaa Apache2 ja aloittaa alusta (`sudo apt-get purge apache2`).
+En keksinyt enää muuta keinoa, kuin poistaa Apache2 ja aloittaa alusta (`sudo apt-get purge apache2`).
 
 Uusi yritys VirtualHost configuration filen kanssa:
 
