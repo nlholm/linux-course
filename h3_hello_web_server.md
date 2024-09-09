@@ -185,39 +185,40 @@ ChatGPT:n promptit ja vastaukset, jotka olivat mielestäni hyvin havainnolliset:
 
 ## c) Etusivu uusiksi
 
-Tee uusi name based virtual host. Sivun tulee näkyä suoraan palvelimen etusivulla http://localhost/. Sivua pitää pystyä muokkaamaan normaalina käyttäjänä, ilman sudoa. Tee uusi, laita vanhat pois päältä. Uusi sivu on hattu.example.com, ja tämän pitää näkyä: asetustiedoston nimessä, asetustiedoston ServerName-muuttujassa sekä etusivun sisällössä (esim title, h1 tai p).
+_Tee uusi **name based virtual host**. Sivun tulee näkyä suoraan palvelimen etusivulla http://localhost/. Sivua pitää pystyä muokkaamaan normaalina käyttäjänä, ilman sudoa. Tee uusi, laita vanhat pois päältä. Uusi sivu on **hattu.example.com**, ja tämän pitää näkyä: asetustiedoston nimessä, asetustiedoston ServerName-muuttujassa sekä etusivun sisällössä (esim title, h1 tai p)._
 
 Tämän osatehtävän onnistumisesta en ollut lainkaan varma, mutta lähdin kokeilemaan nimiperusteisen virtuaali-isännän luomista Karvisen [ohjeiden]( https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/) perusteella.
 
+``
 $ sudoedit /etc/host
- 
+``
 
- 
+![image](https://github.com/user-attachments/assets/b74e5313-7c15-4312-86f3-b70862a2ad10)
+
+ ![image](https://github.com/user-attachments/assets/8e150c79-0eea-4068-89b8-b68891878943)
 
 Totesin että en tiedä yhtään mitä olen tekemässä, tähän kohtaan olisin kaivannut huomattavasti selkeämpiä ohjeita. Onko ajatus, että tällä tekstitiedostolla luodaan hakemisto /debian/publicsites? Sellaista ei nimittäin ennestään ollut.
 
- 
+![image](https://github.com/user-attachments/assets/de1976c4-53a0-49af-9dfb-14b4164789a9)
 
- 
+![image](https://github.com/user-attachments/assets/9d5ae05b-e138-4c88-ab18-01cb0465887f)
 
- 
+![image](https://github.com/user-attachments/assets/055c65e3-3b96-49cf-b7ee-8b7bac68b53d)
 
-Jotain meni pieleen, mutta en tiedä mitä.
+Jotain meni pieleen, mutta en tiedä mitä (Directoryn kirjoitusvirheen lisäksi).
 
- 
+![image](https://github.com/user-attachments/assets/7fe5dd0e-34f9-43b5-9077-5babff48a7c0)
 
 Hakemistopolussa taisi olla jotain vikaa. Kokeilin muuttaa hakemistoa kuten yllä.
 
- 
+![image](https://github.com/user-attachments/assets/fdefa582-7c5b-4b37-b464-7ed06448c5d7)
 
 Mikään ei toiminut edelleenkään. Olin lisäksi onnistunut rikkomaan yhteyden palvelimelleni. Tässä kohtaa täytyy todeta, että Karvisen ohjeet olivat aloittelijalle aivan riittämättömät.
 
 Kysyin tarkempia ohjeita Chat-GPT:ltä, ja etenin niiden mukaan.
 
+![image](https://github.com/user-attachments/assets/d63b73df-2745-4cd7-bd87-03fd125c11c7)
  
-
- 
-
 Lopputulos oli että Apache ei käynnistynyt edelleenkään:
 
  
