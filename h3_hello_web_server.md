@@ -26,7 +26,7 @@ Käytössäni on Windows 11 Home -käyttöjärjestelmällä varustettu jokusen v
 
 ## x) Lue ja tiivistä
 
-Ennen varsinaisen tehtävän aloittamista luin hieman teoriaa nimiperusteisista virtuaali-isännistä Apache Software Foundationin artikkelista [Name-based Virtual Host Support]( https://httpd.apache.org/docs/2.4/vhosts/name-based.html) sekä Karvisen artikkelista [Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address[(https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/). 
+Ennen varsinaisen tehtävän aloittamista luin hieman teoriaa nimiperusteisista virtuaali-isännistä Apache Software Foundationin artikkelista [Name-based Virtual Host Support]( https://httpd.apache.org/docs/2.4/vhosts/name-based.html) sekä Karvisen artikkelista [Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address](https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/). 
 
 Apache Software Foundationin artikkelissa kerrotaan yleisiä periaatteita nimiperusteisille virtuaali-isännille. Artikkelissa vastattiin mm. kysymyksiin, kuinka nimiperusteiset virtuaali-isännät eroavat IP-perusteisista; kuinka palvelin valitsee oikean nimiperusteisen virtuaali-isännän; ja kuinka isäntä tai isännät tulisi perustaa.
 
