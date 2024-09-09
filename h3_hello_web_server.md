@@ -1,4 +1,4 @@
-# Hello Web Server
+# h3 Hello Web Server
 
 [Linux Palvelimet 2024 alkusyksy](https://terokarvinen.com/linux-palvelimet/) -kurssin kolmannessa tehtävässä asensin Apache-weppipalvelimen Debianiini ja testasin sen käyttöä. Olin jälleen kerran uuden äärellä. 
 
