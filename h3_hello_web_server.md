@@ -34,7 +34,7 @@ Karvisen artikkelissa annetetaan yksityiskohtaisempia ohjeita nimiperusteisen vi
 
 ## a) Apache-weppipalvelin
 
-_Asenna Apache-weppipalvelin, jos se ei ole jo asennettuna. Testaa, että weppipalvelimesi vastaa localhost-osoitteesta. _
+_Asenna Apache-weppipalvelin, jos se ei ole jo asennettuna. Testaa, että weppipalvelimesi vastaa localhost-osoitteesta._
 
 Debianiini ei ollut ennestään asennettu Apachea, joten aloitin tehtävän tekemisen asennustöillä.
 
