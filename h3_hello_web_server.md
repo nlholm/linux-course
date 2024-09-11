@@ -247,7 +247,7 @@ Kaiken kaikkiaan voidaan todeta, että epäonnistuin nimiperusteisen virtuaali-i
 
 ![image](https://github.com/user-attachments/assets/04967a90-5885-4c06-9e54-06bb61b07ed0)
 
-## c) Etusivu uusiksi – taas (Päivitys 10.9.2024)
+## c) Etusivu uusiksi – taas (päivitys 10.9.2024)
 
 Palautettuani tehtävän, pääsin käsiksi muiden kurssilaisten raportteihin, ja yritin tehdä kohdan c) uudestaan. Läksyjen rinnakkaisarvioinnissa oli onneksi osunut kohdalla kaksi kokenutta kurssikaveria, jotka olivat onnistuneet tekemään tehtävän onnistuneesti. Nappasin vinkit talteen Krideltä (https://github.com/kridesav/linux-course/blob/main/h3.md) ja Ristolta (https://github.com/ristoeee/linux-course/blob/main/h3.md), ja yritin saada konffifailini kuntoon.
 
