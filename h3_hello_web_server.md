@@ -229,7 +229,7 @@ Uusi yritys VirtualHost configuration filen kanssa:
 
 ![image](https://github.com/user-attachments/assets/8fa270c6-c34f-4789-ac31-b4a77675aa18)
 
-Totesin että web-palvelimessa on edelleen vikaa. Tässä kohtaa aikaa oli kulunut tuntikausia, luovutin. ]
+Totesin että web-palvelimessa on edelleen vikaa. Tässä kohtaa aikaa oli kulunut tuntikausia, luovutin.
 
 ![image](https://github.com/user-attachments/assets/b0edee27-8d2e-4c33-adfe-bfe654fff0aa)
 
