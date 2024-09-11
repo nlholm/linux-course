@@ -246,7 +246,47 @@ Poistin tervehdystekstin komennolla ` sudo a2dissite 000-default.conf`. Nyt alko
 Kaiken kaikkiaan voidaan todeta, että epäonnistuin nimiperusteisen virtuaali-isännän luomisessa, enkä osannut omin voimin korjata tilannetta.
 
 ![image](https://github.com/user-attachments/assets/04967a90-5885-4c06-9e54-06bb61b07ed0)
+
+## c) Etusivu uusiksi – taas (Päivitys 10.9.2024)
+
+Palautettuani tehtävän, pääsin käsiksi muiden kurssilaisten raportteihin, ja yritin tehdä kohdan c) uudestaan. Läksyjen rinnakkaisarvioinnissa oli onneksi osunut kohdalla kaksi kokenutta kurssikaveria, jotka olivat onnistuneet tekemään tehtävän onnistuneesti. Nappasin vinkit talteen Krideltä (https://github.com/kridesav/linux-course/blob/main/h3.md) ja Ristolta (https://github.com/ristoeee/linux-course/blob/main/h3.md), ja yritin saada konffifailini kuntoon.
+
+![image](https://github.com/user-attachments/assets/184e8d8b-4359-4bbf-9d20-4598b2183721)
  
+![image](https://github.com/user-attachments/assets/36f29be5-aef1-4fbf-815a-d0ec6ab730d8)
+
+Muokkasin konffifaililin Document rootin  muotoon /home/nlholm/publicsites/hattu.example.com
+
+![image](https://github.com/user-attachments/assets/c0a4bd89-9c15-499a-942f-52c72c365856)
+
+![image](https://github.com/user-attachments/assets/b2f4f639-ea99-420f-abae-dd2d26d466b0)
+
+Apachen uudelleenkäynnistyksessä oli kuitenkin edelleen vikaa.
+
+![image](https://github.com/user-attachments/assets/f104b855-7aa2-40b7-8a59-7cf79ce97463)
+ 
+Muokkasin varmuuden vuoksi hosts-tiedostoa.
+
+![image](https://github.com/user-attachments/assets/3fccee1d-6f95-4322-a1b7-da1c80aef01e)
+ 
+Tarkistin myös html-sivun. Uudelleenkäynnistys ei edelleenkään toiminut (ja kärsivällisyys alkoi olla lopussa, kuten kirjoitusvirheistä voi päätellä).
+
+Näiden vaiheiden jälkeen poistin Apache2:sen kertaalleen (`sudo apt-get purge apache2`), mutta sekään ei auttanut. Etsin kaikki Apacheen liittyvät tiedostot komennolla `whereis apache2` ja etenin poistamaan erinäisiä tiedostoja ja kansioita joita olin luonut mm. tekoälyseikkailuni aikana, ts. kaiken Apacheen liittyvän (`rmdir -r`). Kävin myös lukemassa virhelogin, ja etsin netistä lisätietoja sen tulkintaan. Mm. Stack Overflow -sivusto auttoi tässä. Olin käyttänyt tehtävään tässä vaiheessa niin suhteettoman paljon aikaa, että en jaksanut enää dokumentoida joka vaihetta. 
+
+Kun Apache2 kaikkine kansioineen ja tiedostoineen oli poistettu, asensin sen vielä kerran uudelleen, ja nyt uudelleenkäynnistys onnistui. Etenin tekemään varsinaisen nimiperusteinen virtuaali-isäntä tehtävän kertaalleen uudestaan. Hosts-tiedosto piti luoda alusta, olin poistanut sen, eikä se näköjään tullut luoduksi uudestaan kun asentsin Apachen takaisin. Index.html-sivu päätyi aluksi väärään paikkaan (ei publiccsites-kansioon), mutta kun sain siirrettyä sen sinne (ts. viittaussuhde meni oikein suhteessa Document Rootiin), lähti sivu lopulta pyörimään. 
+
+Pidin Hattu-sivun erillisenä local host -sivustani.
+
+![image](https://github.com/user-attachments/assets/b5f35270-6af3-4bd2-96de-1a7a2f415daa)
+
+![image](https://github.com/user-attachments/assets/25a603cf-294d-4225-95de-ea00ceb5e1eb)
+
+Kuten Risto kertoo omassa [raportissaan[(https://github.com/ristoeee/linux-course/blob/main/h3.md), kun hattu.example on lisätty localhost konffiin, "niin internetin sijasta haetaan localhostista silloin kun kirjoitetaan selaimeen hattu.example.com tai terminaalissa curl hattu.example.com". Tämä maininta selkeytti itselleni asiaa kovasti.
+
+![image](https://github.com/user-attachments/assets/d0c74380-a7b4-4edc-bd3e-dd06cb6a0aba)
+
+Erinäisten vaiheiden jälkeen olin lopulta onnistunut luomaan nimiperusteisen virtuaali-isännän. Tankattuani asiaa tuntikausia olisin tässä vaiheessa osannut luoda toisenkin, mutta toetesin että olin käyttänyt jo aivan riittävästi aikaa tähän ensimmäiseen.
+
 ## e) HTML5-sivu
 
 _Tee validi HTML5 sivu._
