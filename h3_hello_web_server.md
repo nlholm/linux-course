@@ -251,7 +251,7 @@ Kaiken kaikkiaan voidaan todeta, että epäonnistuin nimiperusteisen virtuaali-i
 
 _Tee validi HTML5 sivu._
 
-Tein tämän osatehtävän ilman ongelmia, ennen kuin asiat alkoivat mennä pieleen kohdassa d).
+Tein tämän osatehtävän ilman ongelmia, ennen kuin asiat alkoivat mennä pieleen kohdassa c).
 
 Kirjoitin hyvin lyhyen HTML-sivun microlla Karvisen [ohjeiden]( https://terokarvinen.com/2012/short-html5-page/) mukaan. Tallensin sivun public_html-hakemistooni nimellä index.html.
 
