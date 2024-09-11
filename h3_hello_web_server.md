@@ -281,11 +281,11 @@ Pidin Hattu-sivun erillisenä local host -sivustani.
 
 ![image](https://github.com/user-attachments/assets/25a603cf-294d-4225-95de-ea00ceb5e1eb)
 
-Kuten Risto kertoo omassa [raportissaan[(https://github.com/ristoeee/linux-course/blob/main/h3.md), kun hattu.example on lisätty localhost konffiin, "niin internetin sijasta haetaan localhostista silloin kun kirjoitetaan selaimeen hattu.example.com tai terminaalissa curl hattu.example.com". Tämä maininta selkeytti itselleni asiaa kovasti.
+Kuten Risto kertoo omassa [raportissaan](https://github.com/ristoeee/linux-course/blob/main/h3.md), kun hattu.example on lisätty localhost konffiin, "niin internetin sijasta haetaan localhostista silloin kun kirjoitetaan selaimeen hattu.example.com tai terminaalissa curl hattu.example.com". Tämä maininta selkeytti itselleni asiaa kovasti.
 
 ![image](https://github.com/user-attachments/assets/d0c74380-a7b4-4edc-bd3e-dd06cb6a0aba)
 
-Erinäisten vaiheiden jälkeen olin lopulta onnistunut luomaan nimiperusteisen virtuaali-isännän. Tankattuani asiaa tuntikausia olisin tässä vaiheessa osannut luoda toisenkin, mutta toetesin että olin käyttänyt jo aivan riittävästi aikaa tähän ensimmäiseen.
+Erinäisten vaiheiden jälkeen olin lopulta onnistunut luomaan nimiperusteisen virtuaali-isännän. Tankattuani asiaa tuntikausia olisin tässä vaiheessa osannut luoda toisenkin, mutta totesin että olin käyttänyt jo aivan riittävästi aikaa tähän ensimmäiseen.
 
 ## e) HTML5-sivu
 
