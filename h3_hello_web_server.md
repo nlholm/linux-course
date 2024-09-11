@@ -259,7 +259,7 @@ Kirjoitin hyvin lyhyen HTML-sivun microlla Karvisen [ohjeiden]( https://terokarv
  
 ![image](https://github.com/user-attachments/assets/301be0c2-6569-4b1d-9333-2bceb4d82043)
 
-## f) ’curl -l’ ja ’curl’
+## f) ’curl -I’ ja ’curl’
 
 _Anna esimerkit 'curl -I' ja 'curl' -komennoista. Selitä 'curl -I' muutamasta näyttämästä otsakkeesta (response header), mitä ne tarkoittavat._
 
@@ -274,6 +274,11 @@ Esimerkki response headerista: Palvelimeksi on nimetty Apache/2.4.62 (Debian).
 _Vapaaehtoinen, suosittelen tekemään: Hanki GitHub Education -paketti._
 
 Hankin paketin [Git Hub Education-linkin](https://github.com/education) ohjeiden mukaan. Säätämistä oli senkin kanssa, koska enää ei ole saatavilla perinteisiä opiskelijakortteja.
+
+## Päivitykset
+
+10.9.2024: Kohta c) **Etusivu uusiksi** tehty uudestaan.
+11.9.2024: Kohtaa f),’curl -I’ ja ’curl’ muokattu selkeämmäksi.  
 
 ## Lähteet 
 
