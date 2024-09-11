@@ -278,6 +278,7 @@ Hankin paketin [Git Hub Education-linkin](https://github.com/education) ohjeiden
 ## Päivitykset
 
 10.9.2024: Kohta c) **Etusivu uusiksi** tehty uudestaan.
+
 11.9.2024: Kohtaa f),’curl -I’ ja ’curl’ muokattu selkeämmäksi.  
 
 ## Lähteet 
