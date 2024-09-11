@@ -228,8 +228,8 @@ En keksinyt enää muuta keinoa, kuin poistaa Apache2 ja aloittaa alusta (`sudo 
 Uusi yritys VirtualHost configuration filen kanssa:
 
 ![image](https://github.com/user-attachments/assets/8fa270c6-c34f-4789-ac31-b4a77675aa18)
- 
-Totesin että web-palvelimessa on edelleen vikaa. Tässä kohtaa aikaa oli kulunut tuntikausia, luovutin. 
+ .
+Totesin että web-palvelimessa on edelleen vikaa. Tässä kohtaa aikaa oli kulunut tuntikausia, luovutin. ]
 
 ![image](https://github.com/user-attachments/assets/b0edee27-8d2e-4c33-adfe-bfe654fff0aa)
 
@@ -263,7 +263,7 @@ Kirjoitin hyvin lyhyen HTML-sivun microlla Karvisen [ohjeiden]( https://terokarv
 
 _Anna esimerkit 'curl -I' ja 'curl' -komennoista. Selitä 'curl -I' muutamasta näyttämästä otsakkeesta (response header), mitä ne tarkoittavat._
 
-Curl ja curl -i -komennoilla voi etsiä tietoa URL-osoitteista. -i-komento antaa enemmän tietoa response headereista. Alla esimerkki komennon käytöstä.
+Curl ja curl -i -komennoilla voi etsiä tietoa URL-osoitteista. `Curl`palauttaa pelkän koodin, `Curl -I` pelkästään palvelimen tiedot, `curl -i`-komento taas antaa tietoa palvelimen tilasta sekä itse sivun koodin. (Tätä kohtaa muokattu selkeämmäksi 11.9.2024, toisten kurssilaisten raporttien perusteella.) Alla esimerkki komennon käytöstä.
 
 ![image](https://github.com/user-attachments/assets/dc327c20-2a79-49c0-a2aa-ef05348f1c89)
 
