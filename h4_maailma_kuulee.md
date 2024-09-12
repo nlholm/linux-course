@@ -27,12 +27,12 @@ Käytössäni on Windows 11 Home -käyttöjärjestelmällä varustettu jokusen v
 ## x) Lue ja tiivistä
 
 Ennen varsinaisen tehtävän aloittamista luin hieman teoriaa virtuaalipalvelimista Karvisen artikkelista [First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS](https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/). Artikkelissa esitetään tiiviisti toimenpiteet, joiden avulla virtuaalipalvelin saadaan pystyyn:
-•	Perusta tili palveluntarjoajalle (esimerkkinä Digital Ocean) ja luo uusi virtuaalipalvelin.
-•	Kirjaudu koneelle etänä SSH:ta hyödyntäen. Luo käyttäjä ja anna käyttäjälle sudo-oikeudet.
-•	Pystytä palomuuri, tee reikä SSH:ta varten.
-•	Lukitse root-tili.
-•	Päivitä ohjelmistot ja asenna web-palvelin kuten Apache.
-•	Hanki palvelimellesi domain-nimi julkiselta DNS-palveluntarjoajalta.
+- Perusta tili palveluntarjoajalle (esimerkkinä Digital Ocean) ja luo uusi virtuaalipalvelin.
+- Kirjaudu koneelle etänä SSH:ta hyödyntäen. Luo käyttäjä ja anna käyttäjälle sudo-oikeudet.
+- Pystytä palomuuri, tee reikä SSH:ta varten.
+- Lukitse root-tili.
+- Päivitä ohjelmistot ja asenna web-palvelin kuten Apache.
+- Hanki palvelimellesi domain-nimi julkiselta DNS-palveluntarjoajalta.
 
 Susanna Lehdon erinomaisesta raportista [Teoriasta käytäntöön pilvipalvelimen avulla (h4)]( https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/) löysin puolestaan tervetulleet, yksityiskohtaiset ohjeet siitä, miten virtuaalipalvelimen perustaminen kannattaa käytännössä tehdä vaihe vaiheelta. Tämän tasoiset ohjeet ovat minulle aloittelijana arvokkaita; edellisen tehtävän kanssa käytin tuntikausia aikaa virheiden selvittelyyn, koska en tahtonut ymmärtää osaamistasooni verrattuna turhan ylimalkaisia ohjeita.
 
