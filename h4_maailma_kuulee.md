@@ -48,7 +48,7 @@ Navigoin sivun keskivaiheille kohtaan All offers ja valitsin DigitalOceanin tarj
 
 ![image](https://github.com/user-attachments/assets/96a6087e-92ec-4f06-8225-f3ef3c80b225)
 
-Kirjauduin [Digital Oceaniin]https://www.digitalocean.com/) GitHub-tunnuksillani, ja käytin Student Pack -tarjouksen.
+Kirjauduin [Digital Oceaniin](https://www.digitalocean.com/) GitHub-tunnuksillani, ja käytin Student Pack -tarjouksen.
 
 ![image](https://github.com/user-attachments/assets/e1c03b54-227d-4168-9985-04d2823b30ad)
  
