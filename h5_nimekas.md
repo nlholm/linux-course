@@ -207,6 +207,7 @@ Prompti.
 Loin RSA-tyyppisen avaimen, bitit spesifioitu. Tallensin sen ehdotettuun lokaatioon. Jätin tunnuslauseen tyhjäksi.
 
 Yksityinen avain sijaitsee täällä: ~/.ssh/id_rsa
+
 Julkinen avain joka jaetaan kotha pilvipalvelimelle, sijaitsee täällä: ~/.ssh/id_rsa.pub
 
 ![image](https://github.com/user-attachments/assets/44fd4278-666c-4a6a-8fde-c34eefca006a)
