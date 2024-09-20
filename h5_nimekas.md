@@ -194,7 +194,7 @@ Neuvosta ei kuitenkaan ollut apua, alidomainit eivät edelleenkään toimineet k
 
 _Automatisoi kirjautuminen julkisella SSH-avaimella._
 
-Hain tietoa epäsymmetrisistä avaimista mm. seuraavista artikkeleista: (https://en.wikipedia.org/wiki/Public-key_cryptography), (https://en.wikipedia.org/wiki/Secure_Shell), (https://en.wikipedia.org/wiki/Ssh-keygen), (https://ifixlinux.com/post/how-to-generate-ssh-key-on-mac-linux/). 
+Hain tietoa epäsymmetrisistä avaimista mm. seuraavista artikkeleista: https://en.wikipedia.org/wiki/Public-key_cryptography, https://en.wikipedia.org/wiki/Secure_Shell, https://en.wikipedia.org/wiki/Ssh-keygen, https://ifixlinux.com/post/how-to-generate-ssh-key-on-mac-linux/. 
 
 Lopulta päädyin kuitenkin pyytämään Chat-GPT:ltä ohjeet avainparin asettamiseksi, ja sainkin mielestäni hyvät ja havainnolliset ohjeet. Etenin niiden mukaan.
 
