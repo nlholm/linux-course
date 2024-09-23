@@ -261,7 +261,7 @@ Uutena tietona tässä oli lähinnä DNS-palvelin, joka vastasi omasta paikallis
 
 ### Yksittäisen henkilön weppisivut
 
-Tutkin pilvipalveluopettajamme Pekka Korpi-Tassin sivuja osoitteessa pekkakorpi-tassi.fi.
+Tutkin pilvipalveluopettajamme Pekka Korpi-Tassin sivuja osoitteessa www.pekkakorpi-tassi.fi.
 
 Host:
 
