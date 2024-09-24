@@ -189,6 +189,14 @@ Sivut eivät tosin toimineet, jos ne aloitti www:llä. Ilmeisesti Namecheapin ww
 Neuvosta ei kuitenkaan ollut apua, alidomainit eivät edelleenkään toimineet kera www:n. Päätin palata ongelman ratkomiseen myöhempänä ajankohtana.
 
 ![image](https://github.com/user-attachments/assets/913e9e19-4643-4c00-a4ae-22ba5c7f8e59)
+
+Päivitys 24.9.2024: Tutkin asiaa hieman lisää, ja päätin kokeilla toisenlaista nimipalvelun konfiguraatiota, jotta saisin alidomainit toimimaan www:llä. Löysin mm. tämän Stack Overflown [artikkelin]( https://stackoverflow.com/questions/8296054/subdomains-not-working-when-www-is-added), jossa yksi neuvo oli tehdä kaksi uutta A-tietuetta mallilla www.alidomain, ja osoitus IP-osoitteeseen. Kokeilin tätä, ts poistin aiemmin tehdyt ylimääräiset CNAME-tietueet (joiden tosin olisi pitänyt itsessään toimia), ja lisäsin uudet A-tietueet.
+
+![image](https://github.com/user-attachments/assets/92d1789d-5198-43fd-86aa-27fa1c027a9e)
+
+![image](https://github.com/user-attachments/assets/931d98db-7fff-4c14-919a-10bbf039ca34)
+
+Kaikki sivut lähtivät vihdoin toimimaan myös www-versioina!
  
 ## c) Pubkey
 
@@ -303,7 +311,9 @@ Holmroos, N. 2024. Holmroos.me. Luettavissa: http://www.holmroos.me/ .
 
 Karvinen, T. 2024. Linux Palvelimet 2024 alkusyksy. Tero Karvinen – Learn Free Software with me. Luettavissa https://terokarvinen.com/linux-palvelimet/ .
 
-Karvinen, T. 12.2.2012. Short HTML5 page. Tero Karvinen – Learn Free Software with me. Luettavissa https://terokarvinen.com/2012/short-html5-page/  .
+Karvinen, T. 12.2.2012. Short HTML5 page. Tero Karvinen – Learn Free Software with me. Luettavissa https://terokarvinen.com/2012/short-html5-page/ .
+
+Stack Overflow. sa. Subdomains not working when www is added? Luettavissa: https://stackoverflow.com/questions/8296054/subdomains-not-working-when-www-is-added .
 
 W3 schools. sa. HTML Tutorial. Luettavissa: https://www.w3schools.com/html/default.asp .
 
