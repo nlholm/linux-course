@@ -4,7 +4,7 @@
 
 Kurssin viidennessä tehtävässä vuokrasin kaksi uutta alidomainia sekä loin kolmen erillisen weppisivun kotisivun, jonka laitoin osoittamaan pilvipalvelimen IP-osoitteeseen käyttäen name based hosting -tekniikkaa (viikko 3). Lisäksi automatisoin kirjautumisen virtuaali-debianiini julkisella SSH-avaimella. Lopuksi tutkin muutaman weppipalvelun DNS-tietoja host- ja dig-komennoilla. 
 
-Tein tehtävän osiot a) ja b) torstaina 19.9.2024. Aloitin klo 16, ja valmista tuli klo 22. Loppuosan tehtävästä tein perjantain 20.9.2024 klo 15-18.
+Tein tehtävän osiot a) ja b) torstaina 19.9.2024. Aloitin klo 16, ja valmista tuli klo 22. Loppuosan tehtävästä tein perjantaina 20.9.2024 klo 15-18.
 
 ## Laitteisto
 
