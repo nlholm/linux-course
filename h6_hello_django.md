@@ -155,8 +155,8 @@ Testiympärisössä oli nyt asennettuna asiakastietokanta, web admin -hallintan�
 ## b) Djangon tuotantotyyppinen asennus
 
 _Tee Djangon tuotantotyyppinen asennus_
-_- Voit halutessasi tehdä asennuksen omalle, paikalliselle virtuaalikoneelle. Sen ei tarvitse näkyä Internetiin._
-_- Karvinen 2021: Deploy Django 4 - Production Install](https://terokarvinen.com/2022/deploy-django/)_
+- _Voit halutessasi tehdä asennuksen omalle, paikalliselle virtuaalikoneelle. Sen ei tarvitse näkyä Internetiin._
+- _Karvinen 2021: Deploy Django 4 - Production Install](https://terokarvinen.com/2022/deploy-django/)_
 
 Testiasennuksen tultua valmiiksi, aloin työstämään Djangon tuotantotyyppistä asennusta. Tämän olisi voinut tehdä pilvi-Debianissa näkyville internetiin (virtual private server), mutta päätin kokeilla asennusta virtuaali-Debianissani localhostina.
 
