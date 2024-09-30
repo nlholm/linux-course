@@ -43,7 +43,7 @@ Aloitin oman projektini luomalla virtuaali-Debianinin kotikansioon kansion 'djan
 
 `sudo apt-get -y install virtualenv` luo virtuaaliympäristön.
 `virtualenv --system-site-packages -p python3 env/` asentaa hakemiston.
-`source env/bin/activate` ottaa käyttöön virtuaaliympäristön.` `Env` tulee näkymään alkuun. Olennaista on olla siinä kansiossa, josta enviä ajetaan (tässä tapauksessa django, myöhemmin publicwsgi).
+`source env/bin/activate` ottaa käyttöön virtuaaliympäristön.` Env tulee näkymään alkuun. Olennaista on olla siinä kansiossa, josta enviä ajetaan (tässä tapauksessa django, myöhemmin publicwsgi).
 
 ![image](https://github.com/user-attachments/assets/8840e6e8-69be-43db-ad6b-d3b86a5a9c1c)
 
