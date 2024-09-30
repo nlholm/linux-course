@@ -33,7 +33,7 @@ _Tee yksinkertainen esimerkkiohjelma Djangolla._
 _- Voit käyttää testipalvelinta, kunhan se ei näy Internetiin._
 _- Riittää, kun ohjelmasi näkyy esimerkiksi Django Adminsissa._
 _- Voit halutessasi tehdä aivan samanlaisen kuin Teron CRM-esimerkissä. Jos olet jo taitavampi, voit hieman soveltaa._
-_- Karvinen 2021: [Django 4 Instant Customer Database Tutorial]( https://terokarvinen.com/2022/django-instant-crm-tutorial/)._
+_- Karvinen 2021: [Django 4 Instant Customer Database Tutorial]( https://terokarvinen.com/2022/django-instant-crm-tutorial/)_
 
 Kuten Django-projekti (https://www.djangoproject.com/) kertoo, Django on web-kehys Pyhton-ohjelmointikielelle. Django on helppo- ja nopeakäyttöinen kehys, joka sisältää useita valmiita komponentteja ja työkaluja ohjelmointiprojektien helpottamiseksi.
 
