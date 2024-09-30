@@ -30,10 +30,10 @@ Käytössäni on Windows 11 Home -käyttöjärjestelmällä varustettu jokusen v
 ## a) Yksinkertainen esimerkkiohjelma Djangolla
 
 _Tee yksinkertainen esimerkkiohjelma Djangolla._
--_Voit käyttää testipalvelinta, kunhan se ei näy Internetiin._
-_- Riittää, kun ohjelmasi näkyy esimerkiksi Django Adminsissa._
-_- Voit halutessasi tehdä aivan samanlaisen kuin Teron CRM-esimerkissä. Jos olet jo taitavampi, voit hieman soveltaa._
-_- Karvinen 2021: [Django 4 Instant Customer Database Tutorial]( https://terokarvinen.com/2022/django-instant-crm-tutorial/)_
+- _Voit käyttää testipalvelinta, kunhan se ei näy Internetiin._
+- _Riittää, kun ohjelmasi näkyy esimerkiksi Django Adminsissa._
+- _Voit halutessasi tehdä aivan samanlaisen kuin Teron CRM-esimerkissä. Jos olet jo taitavampi, voit hieman soveltaa._
+- _Karvinen 2021: [Django 4 Instant Customer Database Tutorial]( https://terokarvinen.com/2022/django-instant-crm-tutorial/)_
 
 Kuten Django-projekti (https://www.djangoproject.com/) kertoo, Django on web-kehys Pyhton-ohjelmointikielelle. Django on helppo- ja nopeakäyttöinen kehys, joka sisältää useita valmiita komponentteja ja työkaluja ohjelmointiprojektien helpottamiseksi.
 
