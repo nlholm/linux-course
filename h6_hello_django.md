@@ -231,7 +231,7 @@ Testasin toiminnan, tuotantoversio Djangosta vastasi Apachen kautta localhostist
 
 Selaimella Djangon tuotantosivu näkyi tosin vasta kun sekä selain että teminaaliohjelma oli suljettu ja käynnistetty kertaalleen uudestaan (toistuva teema selainten kanssa).
 
-Otin Debug-ominaisuuden pois päältä. `cd publicwsgi/project1/ ja `micro project1/settings.py`. 
+Otin Debug-ominaisuuden pois päältä. `cd publicwsgi/project1/` ja `micro project1/settings.py`. 
 
 Tiedostossa muokattiin näitä kahta kohtaa:
 
