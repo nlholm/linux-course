@@ -83,7 +83,7 @@ Ilmoituksen mukaan testipalvelin oli toiminnassa osoitteessa http://127.0.0.1:80
 
 ![image](https://github.com/user-attachments/assets/e2f676a5-3b41-431f-a903-a948fbe016ed)
 
-Toistaiseksi asennus eteni suunnitelmien mukaan. Djangon etusivu näkyi localhostin portissa 8000. (Olin ottanut muut localhostit pois päältä, mukaanlukein aliemmin luodun hattu.examplen.)
+Toistaiseksi asennus eteni suunnitelmien mukaan. Djangon etusivu näkyi localhostin portissa 8000. (Olin ottanut muut localhostit pois päältä, mukaanlukien aliemmin luodun hattu.examplen.)
 
 Seuraavaksi loin adminin ko URL:ään http://127.0.0.1:8000/admin/. 
 
