@@ -5,7 +5,7 @@ tehtävässä asensin Django-sovelluskehyksen virtuaali-Debianiini ja harjoittel
 
 Testityyppisen asennuksen pääohjeena toimi Karvisen artikkeli [Django 4 Instant Customer Database Tutorial]( https://terokarvinen.com/2022/django-instant-crm-tutorial/) ja tuotantotyyppisen asennuksen pääohjeena puolestaan Karvisen artikkeli [Deploy Django 4 - Production Install](https://terokarvinen.com/2022/deploy-django/). Tehtävä oli haastava, joten selailin lisäksi usean aiemman kurssitoteutuksen oppilaiden raportteja asiaan liittyen. 
 
-Tein tehtävän useammassa osassa. Aloitin lukemalla Karvisen artikkelit sekä aiempia raportteja perjantaina 27.9.2024 klo 16-19 ja maanantain 30.9.2024 klo 8-9.30. Itse tehtävän tekemisen aloitin maanantaina 30.9. klo 16.30. Valmista tuli n. klo 23.00 käytyäni välissä toisen kurssin luennolla.
+Tein tehtävän useammassa osassa. Aloitin lukemalla Karvisen artikkelit sekä aiempia raportteja perjantaina 27.9.2024 klo 16-19 ja maanantaina 30.9.2024 klo 8-9.30. Itse tehtävän tekemisen aloitin maanantaina 30.9. klo 16.30. Valmista tuli n. klo 23.00 käytyäni välissä toisen kurssin luennolla.
 
 ## Laitteisto
 
@@ -131,7 +131,7 @@ Seuraavaksi lisäsin mallin tiedostoon crm/models.py, jonka avulla Django loi ti
 
 Kopioin tekstin suoraan Terolta, sillä tutkiessani asiaa aiemmin, olin oppinut, että tabuloinnin saaminen oikein on olennaista Pythonissa, mutta että micro saattaa sekoittaa tabulointia.
 
-Tässä Customer-luokka loi ”customer”-taulun tietokantaan ja siihen ”nimi”-tietueen.
+Tässä Customer-luokka loi 'customer'-taulun tietokantaan ja siihen 'nimi'-tietueen.
 __str__  palauttaa objektin nimen (tässä tapauksessa asiakas). Ilman tätä funktiota tietueen nimenä olisi 'Customer object 1' jne, nyt vain 'Customer xx'.
 
 ![image](https://github.com/user-attachments/assets/999a7e9e-1834-4520-a2c4-c574d83a27bf)
