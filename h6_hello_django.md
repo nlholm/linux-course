@@ -85,7 +85,7 @@ Ilmoituksen mukaan testipalvelin oli toiminnassa osoitteessa http://127.0.0.1:80
 
 Toistaiseksi asennus eteni suunnitelmien mukaan. Djangon etusivu näkyi localhostin portissa 8000. (Olin ottanut muut localhostit pois päältä, mukaanlukien aliemmin luodun hattu.examplen.)
 
-Seuraavaksi loin adminin ko URL:ään http://127.0.0.1:8000/admin/. 
+Seuraavaksi loin adminin URL:ään http://127.0.0.1:8000/admin/. 
 
 `./manage.py makemigrations` ja `./manage.py migrate` päivittävät tietokannat.
 
