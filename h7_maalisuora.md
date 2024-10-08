@@ -86,7 +86,7 @@ Tässä `#!/usr/bin/bash` määrittti, että skripti ajetaan bashilla kansiosta 
 
 ![image](https://github.com/user-attachments/assets/d74424af-a318-4698-9390-39ed01de3c6f)
 
-´sudo cp hello.sh /usr/local/bin/`kopioi skriptin kaikkien käyttäjien käytettäväksi ilman ./ kansioon /usr/local/bin.
+´sudo cp hello.sh /usr/local/bin/` kopioi skriptin kaikkien käyttäjien käytettäväksi ilman ./ kansioon /usr/local/bin.
 
 ## c) Vanha arvioitava laboratiorioharjoitus
 
