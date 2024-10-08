@@ -2,7 +2,7 @@
 
 [Linux Palvelimet 2024 alkusyksy](https://terokarvinen.com/linux-palvelimet/) –kurssin seitsemännessä ja viimeisessä kotitehtävässä harjoittelin ohjelmointikielien alkeita Linuxilla sekä kokeilin muutaman skriptin kirjoittamista. Tein myös vanhan arvioitavan laboratorioharjoituksen soveltuvin osin. Lopuksi asensin uuden tyhjän virtuaalikoneen oman kurssini arvioitavaa labraa varten, mutta tätä kohtaa ei käsitellä raportissa.  
 
-Tein tehtävän useammassa osassa. Aloitin lukemalla taustamateriaaleja perjantaina 4.10. klo 11.30-14.00. Seuraavaksi tein ohjelmointiharjoitukset klo 14.00-17.00. Vanhaa arvioitavaa laboratoriotehtävää en ehtinyt tehdä raportin palauttamisen määräaikaan mennessä, mutta palautin raportin ensin tiistaina 8.10 klo 17.30, ja aloin sen jälkeen tekemään tehtävää. Täydensin raporttia myöhemmin tämän osatehtävän osalta. 
+Tein tehtävän useammassa osassa. Aloitin lukemalla taustamateriaaleja perjantaina 4.10. klo 11.30-14.00. Seuraavaksi tein ohjelmointiharjoitukset klo 14.00-17.00. Vanhaa arvioitavaa laboratoriotehtävää en ehtinyt tehdä raportin palauttamisen määräaikaan mennessä, mutta palautin raportin ensin tiistaina 8.10 klo 17.30, ja aloin sen jälkeen tekemään tehtävää. Täydensin raporttia myöhemmin tämän tehtävän osalta. 
 
 ## Laitteisto
 
