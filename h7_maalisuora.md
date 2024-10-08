@@ -88,7 +88,7 @@ Tässä `#!/usr/bin/bash` määrittti, että skripti ajetaan bashilla kansiosta 
 
 `sudo cp hello.sh /usr/local/bin/` kopioi skriptin kaikkien käyttäjien käytettäväksi ilman ./ kansioon /usr/local/bin.
 
-## c) Vanha arvioitava laboratiorioharjoitus
+## c) Vanha arvioitava laboratorioharjoitus
 
 _Ratkaise vanha arvioitava laboratorioharjoitus soveltuvin osin._
 
