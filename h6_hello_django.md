@@ -1,4 +1,4 @@
-# Hello Django
+# h6 Hello Django
 
 [Linux Palvelimet 2024 alkusyksy](https://terokarvinen.com/linux-palvelimet/) –kurssin kuudennessa
 tehtävässä asensin Django-sovelluskehyksen virtuaali-Debianiini ja harjoittelin kehyksen käyttöä tekemällä testi- ja tuotantotyyppiset asennukset. 
