@@ -24,7 +24,7 @@ Käytössäni on Windows 11 Home -käyttöjärjestelmällä varustettu jokusen v
 - RAM: 4 GB
 - Levytila: 30 GB
 
-## a) ”Hei maailma kolmella kielellä” 
+## a) Hei maailma kolmella kielellä 
 
 _Kirjoita ja aja "Hei maailma" kolmella kielellä._
 
